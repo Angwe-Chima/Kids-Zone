@@ -1,0 +1,674 @@
+/* ////////////// Home //////////// */
+
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ////////// Header //////////// */
+.header {
+  box-shadow: 0px 0px 15px 5px rgba(119, 118, 118, 0.349);
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.header-container {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.header-container .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.header-container .card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+  padding: 1em;
+  height: 100%;
+}
+
+.header-container .card .header-desc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  align-items: center;
+  flex-direction: column;
+  height: 35%;
+}
+
+.header-container .card .header-desc a {
+  text-decoration: none;
+}
+
+.header-container .card .header-desc .Btn {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  border-radius: 45px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(252, 100, 45);
+  color: white;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 10px 10px rgb(252, 178, 178) inset,
+    0px 5px 10px rgba(5, 5, 5, 0.212), 0px -10px 10px rgb(247, 119, 72) inset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Btn::before {
+  width: 70%;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 0.678);
+  content: "";
+  filter: blur(1px);
+  top: 7px;
+  border-radius: 50%;
+}
+
+.Btn::after {
+  width: 70%;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 0.137);
+  content: "";
+  filter: blur(1px);
+  bottom: 7px;
+  border-radius: 50%;
+}
+
+.Btn:hover {
+  animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.header-container .card .header-img-div {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/circle-scatter.svg?alt=media&token=b332174d-9c22-4473-9cfd-9afa56736761);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-container .card .header-img-div img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header-container .btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(252, 150, 150, 0.5);
+  backdrop-filter: blur(5px);
+  color: black;
+  padding: 0.5em;
+  border: none;
+  font-size: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.header-container .card h3 {
+  font-size: clamp(1rem, 3vw, 2rem);
+  width: 85%;
+  text-align: center;
+  --text-stroke-color: black;
+  letter-spacing: 1.5px;
+  line-height:clamp(1rem, 3vw , 2.5rem);
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: rgba(255, 17, 0, 0.774);
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.header-container .prev_btn {
+  left: 0;
+  z-index: 2;
+}
+
+.header-container .next_btn {
+  right: 0;
+  z-index: 2;
+}
+
+/* ////////// Activities////////// */
+
+.activities {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5em 0.1em;
+  gap: 2em;
+}
+
+.activities .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1em 0em;
+}
+
+.activities .cards .card {
+  padding: 3em 0em;
+  width: clamp(15%, 25%, 500px);
+  background-color: var(--lime-green);
+  transition: 0.4s;
+  max-height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  border-radius: var(--border-radius-5);
+  gap: 1em;
+  color: var(--white);
+  position: relative;
+  box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.37);
+}
+
+.activities .cards .card:nth-child(2) {
+  background-color: var(--red);
+}
+
+.activities .cards .card:nth-child(3) {
+  background-color: var(--blue);
+}
+
+.activities .cards .card::before {
+  content: "";
+  width: 20%;
+  height: 20%;
+  background: rgba(255, 0, 0, 0.582);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.158) 0%,
+    var(--blue) 100%
+  );
+  position: absolute;
+  inset: 0;
+  transition: 0.8s;
+  border-radius: var(--border-radius-5);
+  opacity: 0;
+}
+
+.activities .cards .card::after {
+  content: "";
+  width: 20%;
+  height: 20%;
+  background: var(--red);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.692) 0%,
+    var(--blue) 100%
+  );
+  position: absolute;
+  transition: 0.8s;
+  bottom: 0;
+  right: 0;
+  border-radius: var(--border-radius-5);
+  opacity: 0;
+}
+
+.activities .cards .card:hover::before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.activities .cards .card:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.activities .cards .card img {
+  width: 35%;
+  filter: saturate(3);
+}
+
+.activities .cards .card h2,
+.activities .cards .card p,
+.activities .cards .card img {
+  z-index: 1;
+  text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.575);
+}
+
+.activities .cards .card p {
+  width: 90%;
+}
+
+/* fun activities */
+.learning-moments {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+}
+
+.all-activities {
+  width: 100%;
+  display: grid;
+  padding: 1em;
+  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+}
+
+.all-activities > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 5px solid orangered;
+  border-radius: 1em;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.act-img-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.all-activities div img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  object-fit: contain;
+  max-height: 200px;
+  min-height: 190px;
+}
+
+.all-activities div p {
+  width: 100%;
+  max-height: 200px;
+  padding: 1em 0.5em;
+  background-color: orangered;
+  color: white;
+  border-radius: 0em 0em 1em 1em;
+  text-align: center;
+  font-size: clamp(0.9rem, 1vh, 1rem);
+}
+
+/* what we offer */
+.what-we-offer {
+  padding-top: 5em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.offers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 4em;
+  gap: 1em;
+}
+
+.offers .sec {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+
+.sec-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--blue);
+  gap: 1.5em;
+  text-align: center;
+  padding: 1em;
+  border-radius: var(--border-radius-5);
+  position: relative;
+  cursor: pointer;
+}
+
+.sec-card:nth-child(2) {
+  background-color: var(--red);
+}
+.sec-card:nth-child(3) {
+  background-color: var(--blue-violet);
+}
+.sec-card:nth-child(4) {
+  background-color: var(--lime-green);
+}
+.sec-card:nth-child(5) {
+  background-color: var(--blue-violet);
+}
+
+.sec-card::after {
+  content: "";
+  width: 20%;
+  height: 20%;
+  background: var(--red);
+  background: linear-gradient(
+    0deg,
+    rgba(73, 68, 68, 0.692) 0%,
+    rgba(0, 0, 0, 0.692) 100%
+  );
+  position: absolute;
+  transition: 0.8s;
+  bottom: 0;
+  right: 0;
+  border-radius: var(--border-radius-5);
+  opacity: 0;
+}
+
+.sec-card:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.sec-card a {
+  text-decoration: none;
+}
+
+.sec-card a img {
+  width: 50px;
+  padding: 0.2em;
+  background-color: var(--white);
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.sec-text-desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.sec-card h3 {
+  font-size: var(--font-size-16);
+  color: var(--white);
+  z-index: 1;
+}
+
+.sec-card p {
+  color: var(--white);
+  font-size: clamp(0.5rem, 1vw, 1.1rem);
+  text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.61);
+  z-index: 1;
+}
+
+.midSec {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.midSec div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.images {
+  max-height: 250px;
+  min-height: 200px;
+  border: 10px solid var(--orange-red);
+  border-radius: 1rem;
+  object-fit: contain;
+  display: flex;
+  justify-content: baseline;
+  position: relative;
+  transition: 0.5s;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.midSec .image1,
+.midSec .image4 {
+  width: 100%;
+}
+
+.midSec .image2,
+.midSec .image3 {
+  width: 50%;
+}
+
+/* ///////////////// */
+.learnNow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: aquamarine;
+  padding: 2em;
+}
+
+.learnNow a {
+  width: 40%;
+  min-width: 300px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnNow a .Btn {
+  position: relative;
+  width: 550px;
+  height: 55px;
+  border-radius: 45px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgb(252, 100, 45);
+  color: white;
+  letter-spacing: 1.5px;
+  box-shadow: 0px 10px 10px rgb(252, 178, 178) inset,
+    0px 5px 10px rgba(5, 5, 5, 0.212), 0px -10px 10px rgb(247, 119, 72) inset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.Btn::before {
+  width: 70%;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 0.678);
+  content: "";
+  filter: blur(1px);
+  top: 7px;
+  border-radius: 50%;
+}
+
+.Btn::after {
+  width: 70%;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 0.137);
+  content: "";
+  filter: blur(1px);
+  bottom: 7px;
+  border-radius: 50%;
+}
+
+.Btn:hover {
+  animation: jello-horizontal 0.9s both;
+}
+
+/* /////////////////////////////////////////////// */
+@media screen and (max-width: 1000px) {
+  .activities {
+    padding: 4em 0.1em;
+    gap: 3em;
+  }
+  .activities .cards {
+    padding: 0.2em;
+    flex-wrap: wrap;
+    gap: 2em;
+    flex-direction: column;
+  }
+
+  .activities .cards .card {
+    width: 65%;
+    padding: 2em 1em;
+    min-width: 300px;
+  }
+
+  .activities .cards .card img {
+    width: 20%;
+  }
+  .activities .cards .card p {
+    width: 75%;
+  }
+
+  .offers {
+    flex-direction: column;
+  }
+
+  .offers .sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  .sec-card {
+    width: 80%;
+    max-width: 500px;
+    min-width: 250px;
+    padding: 2em;
+  }
+
+  .sec-card p {
+    font-size: clamp(0.5rem, 2vw, 1.1rem);
+    width: 80%;
+  }
+
+  .midSec {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1em;
+  }
+
+  .images {
+    width: 80%;
+    max-height: 200px;
+    min-height: 190px;
+    max-width: 500px;
+    min-width: 200px;
+  }
+
+  .midSec > div,
+  .midSec .image4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .activities .cards .card p {
+    width: 95%;
+  }
+  .sec-card {
+    padding: 2em 1em;
+  }
+  .sec-card p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,139 @@
+/* ////////// Learn /////////// */
+
+.learn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  flex-direction: column;
+  padding: 5em 2em;
+}
+
+.learn-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.learn-cards a {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 11em;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  min-width: 300px;
+  max-width: 550px;
+  max-height: 15em;
+  min-height: 10em;
+}
+
+.learn-cards a .learn-card {
+  width: 100%;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid orangered;
+  padding: 1;
+  height: 100%;
+  flex-direction: column;
+  border-radius: var(--border-radius-5);
+  position: relative;
+}
+
+.learn-cards a .learn-card img {
+  object-fit: contain;
+  padding: 2em;
+  width: 30%;
+  min-width: 200px;
+}
+
+.learn-cards a .learn-card::before {
+  content: "";
+  width: 90px;
+  height: 90px;
+  padding: 1em;
+  cursor: pointer;
+  top: 0;
+  background-color: rgba(236, 38, 4, 0.5);
+  backdrop-filter: blur(8px);
+  left: 0;
+  position: absolute;
+  border-radius: 50%;
+  border-top-left-radius: 0em;
+  border: 5px solid white;
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.7s;
+  background-image: var(--bg-image);
+}
+
+.learn-cards a .learn-card:hover::before {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  border-radius: 0.5em;
+}
+
+.activity {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4em 0em 1em 0em;
+  gap: 4em;
+  user-select: none;
+}
+
+/* default activities style */
+.top {
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 3.5em;
+  padding: 0.1em 0.5em;
+  position: relative;
+  background-color: rgba(255, 68, 0, 0.164);
+  border-radius: 10em;
+}
+
+.top a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.top h1 {
+  font-size: clamp(1.2rem, 2vw, 1.85rem);
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media screen and (max-width: 700px) {
+  .learn-cards {
+    flex-direction: column;
+  }
+  
+  .learn-cards a {
+    width: 100%;
+  } 
+}

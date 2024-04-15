@@ -1,0 +1,70 @@
+
+.rhymes {
+  width: 100%;
+  overflow-x: auto;
+  padding: 2em;
+  margin-bottom: 7em;
+}
+
+.rhymes > div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+.rhymes > div > div {
+  height: 350px;
+  width: 35%; 
+  min-width: 300px; 
+  position: relative;
+  border-radius: 1rem;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.418);
+}
+
+.rhymes > div > div .video-container {
+  /* Styles for video container (hidden initially) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 86%;
+}
+
+.rhymes > div > div .video-container iframe {
+  /* Video iframe styles */
+  width: 100%;
+  height: 100%;
+  border-radius: 1em;
+}
+
+.video-title {
+  width: 100%;
+  height: 10%; 
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  padding: 1em;
+  position: absolute;
+  bottom: 0;
+}
+
+.video-cover{
+  border: 10px orangered solid;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1em;
+}

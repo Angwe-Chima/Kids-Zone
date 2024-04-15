@@ -1,0 +1,43 @@
+.colors {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2em;
+  flex-wrap: wrap;
+}
+
+.color-world .colors div {
+  background-color: var(--bg-color);
+  width: 10%;
+  min-width: 150px;
+  padding: 4em 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5em;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+}
+
+.color-world .colors div h3 {
+  color: white;
+  font-size: var(--font-size-16);
+  text-align: center;
+}
+
+.color-world .colors div:nth-child(8) h3 {
+  color: black;
+}
+
+
+@media screen and (max-width: 700px) {
+  .colors {
+    gap: 1.5em;
+  }
+  .color-world .colors div {
+    width: 8%;
+    min-width: 100px;
+    padding:2em 1em;
+  }
+}

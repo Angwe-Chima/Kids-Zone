@@ -1,0 +1,48 @@
+.nums {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 0em 1em;
+}
+
+.nums div {
+  width: 8.8%;
+  min-width: 60px;
+  max-width: 120px;
+  max-height: 62px;
+  min-height: 80px;
+  border: 2px solid orangered;
+  height: 80px;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: .5rem;
+}
+
+.nums div p{
+  font-size: 1.5rem;
+}
+
+.nums div span{
+  font-size: 1.1rem;
+}
+
+.nums div:nth-child(10),
+.nums div:nth-child(20),
+.nums div:nth-child(30),
+.nums div:nth-child(40),
+.nums div:nth-child(50),
+.nums div:nth-child(60),
+.nums div:nth-child(70),
+.nums div:nth-child(80),
+.nums div:nth-child(90),
+.nums div:nth-child(100) {
+  color: orangered;
+  border: 2px solid black;
+}

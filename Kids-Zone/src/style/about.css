@@ -1,0 +1,294 @@
+.about-header {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 0.774);
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/circle-scatter.svg?alt=media&token=b332174d-9c22-4473-9cfd-9afa56736761);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-header section {
+  width: clamp(300px, 50vw, 500px);
+  height: clamp(300px, 50vw, 500px);
+  background-color: wheat;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid orangered;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/happy-toddlers-5.png?alt=media&token=e2abad72-2752-4a58-935f-067ec63dddc2);
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.we-are {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  gap: 5em;
+}
+
+.who-we-are {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.who-we-are .left-side {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.who-we-are .left-side p,
+.what-we-do .left-side p {
+  line-height: 1.3em;
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.who-we-are .right-side {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.who-we-are .right-side img{
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/layered-waves.svg?alt=media&token=f5aa4674-9ad8-4649-84f7-b9eaf88a0508);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 10px solid orangered;
+  border-radius: 1rem;
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+}
+
+.what-we-do {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.what-we-do .left-side {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 1em;
+}
+
+.what-we-do .left-side ol {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.what-we-do .left-side ol li {
+  line-height: 1.3em;
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+  counter-increment: number;
+  display: flex;
+  gap: 0.2em;
+  align-items: center;
+  text-align: center;
+}
+
+.what-we-do .left-side ol li strong {
+  color: orangered;
+}
+
+.about .creators {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+}
+
+.about .creators div {
+  width: 50%;
+  padding: 2em;
+  border-radius: 1em;
+  gap: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay.svg?alt=media&token=cbf78c3f-cf59-4813-9b17-ca23f97f5e2c);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px 4px rgba(128, 128, 128, 0.808);
+  box-shadow: 0px 0px 7px 1px rgba(128, 128, 128, 0.596);
+}
+
+.about .creators div h2 {
+  color: rgb(139, 2, 2);
+  letter-spacing: 1px;
+}
+
+.about .creators div h4 {
+  line-height: 1.4em;
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.about .creators div h4 span {
+  color: orangered;
+}
+
+.vision-mission {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.vision-mission p {
+  line-height: 1.4em;
+  font-size: 1.25rem;
+  letter-spacing: 0.01em;
+  text-align: center;
+  width: 80%;
+}
+
+/* Reviews */
+.main-container {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 5em;
+}
+
+.carousel-container {
+  display: flex;
+  width: 100%;
+  max-width: 850px;
+  height: 16em;
+  position: relative;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.carousel-container .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 97%;
+  height: 100%;
+  position: absolute;
+  transition: all 0.5s;
+  padding: 1.5em;
+}
+
+.carousel-container .card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em;
+  height: 100%;
+  border-radius: 1.2rem;
+  position: relative;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel-container .btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(236, 38, 4, 0.5);
+  backdrop-filter: blur(8px);
+  color: black;
+  padding: 0.5em;
+  border: none;
+  font-size: 2rem;
+  font-weight: 900;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.carousel-container .card h3 {
+  font-size: var(--font-size-30);
+}
+
+.carousel-container .card p {
+  width: 50%;
+  text-align: center;
+  font-size: x-large;
+}
+
+.carousel-container .prev_btn {
+  left: 0;
+  z-index: 2;
+}
+
+.carousel-container .next_btn {
+  right: 0;
+  z-index: 2;
+}
+
+@media screen and (max-width: 700px) {
+  .who-we-are,
+  .what-we-do {
+    flex-direction: column;
+  }
+  .what-we-do .right-side,
+  .who-we-are .right-side {
+    width: 100%;
+  }
+  .what-we-do .left-side,
+  .who-we-are .left-side {
+    width: 100%;
+  }
+  .about .creators div {
+    width: 100%;
+  }
+  .vision-mission p {
+    width: 100%;
+  }
+}

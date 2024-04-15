@@ -1,0 +1,70 @@
+.basic-math {
+  width: 100%;
+  text-align: center;
+}
+
+.mathQuiz{
+  width: 55%;
+  border: 8px solid orangered;
+  display: flex;
+  border-radius: 1em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5em;
+  min-height: 350px;
+}
+
+.basic-math p {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.answer-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+
+.answer-options button {
+  padding: 1em 2em;
+  border: none; 
+  background-color: orangered;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.feedback {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.next-question {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Optional media query for smaller screens */
+@media (max-width: 700px) {
+  .answer-options {
+    flex-direction: column;
+  }
+}
