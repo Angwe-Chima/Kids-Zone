@@ -183,7 +183,7 @@ nav ul li a {
   cursor: pointer;
   overflow: hidden;
   position: relative;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 nav ul li a::before,

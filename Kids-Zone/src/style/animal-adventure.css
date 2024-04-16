@@ -9,13 +9,13 @@
 }
 
 .animals div{
+  background-image: var(--animalImage);
   width: 20%;
   min-width: 200px;
   border: 2px solid orangered;
   padding: 5em 0em;
   border-radius: .5rem;
   position: relative;
-  background-image: var(--animalImage);
   background-position: center;
   background-size: 45%;
   background-repeat: no-repeat;
@@ -41,7 +41,6 @@
   width: 100%;
   height: 100%;
   outline: none; 
-  padding: .5em;
   border-radius: .5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

@@ -6,6 +6,7 @@ import "../style/rhythmic-rhymes.css";
 import "../style/fruits-and-vegetable.css"
 import "../style/maths-and-quiz.css";
 import "../style/numbers.css";
+import "../style/alphabet-adventure.css";
 import LearnElements from "./Data/LearnElements";
 
 function Learn() {
