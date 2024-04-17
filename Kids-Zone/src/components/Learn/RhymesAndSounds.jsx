@@ -9,7 +9,7 @@ function RhymesAndSounds() {
     {
       title: "Bla Bla Black Sheep",
       videoId: "YanYDTGkLH8",
-      coverPhoto: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Bla-Black-Sheep-Cover-Photo.svg?alt=media&token=fbfd2daf-edbf-4063-8691-db154dc142d9",
+      coverPhoto: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Bla-Black-Sheep-Cover-Photo.svg?alt=media&token=d54f00f4-343f-450a-b9f5-ac8441d89ac1",
     },
     {
       title: "Itsy Bitsy Spider",

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../style/learn.css";
+// import links for learn activities
 import "../style/color-world.css";
 import "../style/animal-adventure.css";
 import "../style/rhythmic-rhymes.css";
@@ -7,6 +8,8 @@ import "../style/fruits-and-vegetable.css"
 import "../style/maths-and-quiz.css";
 import "../style/numbers.css";
 import "../style/alphabet-adventure.css";
+import "../style/days-and-month.css";
+// import for activities page
 import LearnElements from "./Data/LearnElements";
 
 function Learn() {

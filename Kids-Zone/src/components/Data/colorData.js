@@ -40,20 +40,12 @@ export default [
   text: 'Violet'
  },
  {
-  color:'indigo',
-  text: 'Indidgo'
- },
- {
   color:'gray',
   text: 'Gray'
  },
  {
   color:'cyan',
   text: 'Cyan'
- },
- {
-  color:'silver',
-  text: 'Silver'
  },
 
 ]

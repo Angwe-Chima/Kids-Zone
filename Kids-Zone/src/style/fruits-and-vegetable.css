@@ -4,15 +4,12 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding:0em 2em;
   gap: 1em;
 }
 
 .fruitvegy > div{
-  width: 18%;
-  min-width: 200px;
-  max-height: 200px;
-  height: 10rem;
+  width: clamp(140px, 20vw, 300px);
+  height: max(150px, 13vw);
   display: flex;
   gap: .5em;
   justify-content: center;

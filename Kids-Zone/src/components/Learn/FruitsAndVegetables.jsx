@@ -9,7 +9,7 @@ function FruitsAndVegetables() {
         <Link to="/learn">
           <IoMdArrowRoundBack />
         </Link>
-        <h1>Fruits And Vegetables</h1>
+        <h1>Fruits And Vegies</h1>
       </div>
       <div className="fruitvegy">
         {fruitsAndVegetableData.map((item, index) => (

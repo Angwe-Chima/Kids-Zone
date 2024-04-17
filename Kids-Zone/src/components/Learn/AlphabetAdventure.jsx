@@ -15,7 +15,10 @@ function Learn() {
         {alphabetData.map((alphabet, index) => (
           <div
             key={index}
-            className="letters"
+            className={`letters loaded ${
+              // Conditionally add 'loading' class while image loads
+              alphabet.imageLoaded ? '' : 'loading'
+            }`}
             style={{ "--alphabetImage": `url(${alphabet.image})` }}
           >
             <span>

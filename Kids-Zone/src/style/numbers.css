@@ -10,12 +10,10 @@
 
 .nums div {
   width: 8.8%;
-  min-width: 60px;
+  min-width: 55px;
   max-width: 120px;
-  max-height: 62px;
-  min-height: 80px;
+  height: min(80px, 15vw);
   border: 2px solid orangered;
-  height: 80px;
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
@@ -26,11 +24,11 @@
 }
 
 .nums div p{
-  font-size: 1.5rem;
+  font-size: clamp(.8rem, 2vw, 1.5rem);
 }
 
 .nums div span{
-  font-size: 1.1rem;
+  font-size: clamp(.6rem, 1.5vw, 1.1rem);
 }
 
 .nums div:nth-child(10),
@@ -45,4 +43,10 @@
 .nums div:nth-child(100) {
   color: orangered;
   border: 2px solid black;
+}
+
+@media screen and (max-width: 700px) {
+  .nums{
+    gap: .8em;
+  }
 }

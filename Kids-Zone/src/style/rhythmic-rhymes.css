@@ -2,8 +2,8 @@
 .rhymes {
   width: 100%;
   overflow-x: auto;
-  padding: 2em;
-  margin-bottom: 7em;
+  padding:1em;
+  margin-bottom: 2%;
 }
 
 .rhymes > div {
@@ -11,15 +11,14 @@
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
   padding: 1em;
   overflow-x: auto;
 }
 
 .rhymes > div > div {
-  height: 350px;
-  width: 35%; 
-  min-width: 300px; 
+  width: clamp(250px, 30vw, 500px);
+  height: max(280px, 23vw);
   position: relative;
   border-radius: 1rem;
   display: flex;
@@ -50,19 +49,19 @@
   width: 100%;
   height: 10%; 
   text-align: center;
-  font-size: 1.5rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: orangered;
-  padding: 1em;
+  padding: 1.2em .5em;
   position: absolute;
   bottom: 0;
 }
 
 .video-cover{
-  border: 10px orangered solid;
+  border: 5px orangered solid;
   width: 100%;
   height: 100%;
   object-fit: cover;

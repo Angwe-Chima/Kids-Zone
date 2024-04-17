@@ -4,15 +4,15 @@
 }
 
 .mathQuiz{
-  width: 55%;
-  border: 8px solid orangered;
+  width: 80%;
+  border: 5px solid orangered;
   display: flex;
   border-radius: 1em;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 1.5em;
-  min-height: 350px;
+  min-height: 450px;
 }
 
 .basic-math p {
@@ -24,7 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
+  gap: 3em;
 }
 
 .answer-options button {

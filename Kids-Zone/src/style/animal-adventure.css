@@ -4,14 +4,14 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2.2em;
-  padding: 0em 1em;
+  gap: 1.2em;
+  padding: 0em .5em;
 }
 
 .animals div{
   background-image: var(--animalImage);
-  width: 20%;
-  min-width: 200px;
+  width: clamp(155px, 20vw, 300px);
+  height: max(150px, 13vw);
   border: 2px solid orangered;
   padding: 5em 0em;
   border-radius: .5rem;
@@ -26,9 +26,9 @@
 }
 
 .animals div span {
-  width: 35%;
+  width: 30%;
   min-width: 100px;
-  height: 27%;
+  height: 17%;
   position: absolute;
   top: 0;
   display: flex;
@@ -63,19 +63,7 @@
   z-index: 2;
   bottom: 0;
   right: 0;
-}
-
-.animals div::after{
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
-  z-index: -1;
-  background-position: center;
-  background-size: cover;
-  bottom: 0;
-  right: 0;
+  border-radius: .5rem;
 }
 
 .animals div p{
@@ -84,6 +72,8 @@
   text-shadow: 1px 1px 2px;
   bottom: 0;
   right: 0;
+  border-radius: .5rem;
   z-index: 2;
-  font-size: x-large;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  letter-spacing: 1.5px;
 }

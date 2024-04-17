@@ -73,7 +73,7 @@ function MathsAndQuiz() {
             )}
           </div>
         )}
-        <button className="next-question  " onClick={generateNewQuestion}>Next Question</button>
+        <button className="next-question" onClick={generateNewQuestion}>Next Question</button>
       </div>
     </div>
   );

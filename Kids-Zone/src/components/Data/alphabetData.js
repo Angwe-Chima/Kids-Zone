@@ -1,13 +1,4 @@
 
-import ball from "../../assets/ball.png";
-import egg from "../../assets/egg.png";
-import fish from "../../assets/fish.png";
-import goose from "../../assets/goose.png";
-import house from "../../assets/house.png";
-import igloo from "../../assets/igloo.png";
-import jug from "../../assets/jug.png";
-import kettle from "../../assets/kettle.png";
-
 export default [
   {
     name: "Aa",
@@ -18,7 +9,7 @@ export default [
   {
     name: "Bb",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FB%20for%20ball.MP3?alt=media&token=9a21f6a4-5fc3-49fc-b8ae-7e6c511d8adc",
-    image: ball,
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/ball.png?alt=media&token=4af1d658-33c1-48fe-a90c-61bbb3620bae",
     word: "Ball",
   },
   {
@@ -42,38 +33,38 @@ export default [
   {
     name: "Ff",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FF%20for%20fish.MP3?alt=media&token=27c8113b-375b-46b2-80d2-0404186d7eaf",
-    image: fish,
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/fish.png?alt=media&token=bc12e03b-0a12-474a-855c-0f8467dcb4d2",
     word: "Fish",
   },
   {
     name: "Gg",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FG%20for%20gorilla.MP3?alt=media&token=5ab648bb-940a-448f-8387-0e3dc7c9105a",
-    image: goose,
-    word: "Goose",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/gorilla.png?alt=media&token=86a2d1df-842d-4581-b752-7c9370dbf804",
+    word: "Gorilla",
   },
   {
     name: "Hh",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FH%20for%20hat.MP3?alt=media&token=5003d9e5-4659-46a5-b4ab-e88f777e5035",
-    image: house,
-    word: "House",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/hat.png?alt=media&token=8071a67b-c758-4435-aa8c-4457c6f533d2",
+    word: "Hat",
   },
   {
     name: "Ii",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FI%20for%20igloo.MP3?alt=media&token=09eb5058-967f-43ef-a08d-71f6d834a429",
-    image: igloo,
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/igloo.png?alt=media&token=7eec86d5-f8a9-4148-ade0-a15b4a2769ea",
     word: "Igloo",
   },
   {
     name: "Jj",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FJ%20for%20juice.MP3?alt=media&token=00005e46-7ec4-435f-b1c1-cfab18fea316",
-    image: jug,
-    word: "Jug",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/juice.png?alt=media&token=90430679-98e1-400e-bbb4-eba4067ec01a",
+    word: "Juice",
   },
   {
     name: "Kk",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FK%20for%20kangaroo.MP3?alt=media&token=e331d7ce-aa1a-4097-8cae-a29f8435fdf2",
-    image: kettle,
-    word: "Kettle",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/kangaroo.png?alt=media&token=16023375-203e-477f-93d7-56ec8e284c3c",
+    word: "Kangaroo",
   },
   {
     name: "Ll",
@@ -90,14 +81,14 @@ export default [
   {
     name: "Nn",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FN%20for%20nest.MP3?alt=media&token=47d6aa14-9c3f-4b88-bf30-b01d4cbed743",
-    image: "",
-    word: "Nurse",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/nest.png?alt=media&token=bc00f98f-711a-4c93-a6e3-c90e31b27f4e",
+    word: "Nest",
   },
   {
     name: "Oo",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FO%20for%20octopus.MP3?alt=media&token=0ab4b774-e9bc-4849-85a7-a8bb136be813",
-    image: "",
-    word: "Orange",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/octopus.png?alt=media&token=604574df-d619-47a4-8f8a-b0f20f21d004",
+    word: "Octopus",
   },
   {
     name: "Pp",
@@ -108,61 +99,61 @@ export default [
   {
     name: "Qq",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FQ%20for%20quail.MP3?alt=media&token=5dea8b2d-7ca4-4667-b2d8-059380d2b8b0",
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/quail.png?alt=media&token=69bc3d7a-807d-4474-82e3-7ab71a6e43bd",
     word: "Quail",
   },
   {
     name: "Rr",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FR%20for%20ring.MP3?alt=media&token=3f8375f0-8563-4e62-943c-efb4f8328443",
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/ring.png?alt=media&token=98997fe2-1fd7-4ebc-b835-4ae2cbfb7863",
     word: "Ring",
   },
   {
     name: "Ss",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FS%20for%20sun.MP3?alt=media&token=1152bcb5-802d-4259-9969-cc80674e0287",
-    image: "",
-    word: "Spoon",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/sun.png?alt=media&token=6dc65644-dda5-4b70-8a4e-b1f8149183b1",
+    word: "Sun",
   },
   {
     name: "Tt",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FT%20for%20train.MP3?alt=media&token=fc93e56f-ac65-412f-90a4-a07d2ac29a1b",
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/train.png?alt=media&token=2d15083b-ac92-4ac5-a2a0-f10f5d31aa4a",
     word: "Turtle",
   },
   {
     name: "Uu",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FU%20for%20umbrella.MP3?alt=media&token=af9cf299-6d44-4ff4-bcd0-595a0d43a041",
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/umbrella.png?alt=media&token=7158b2b9-6a4e-42a7-add1-7ba1847b7934",
     word: "Umbrellla",
   },
   {
     name: "Vv",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FV%20for%20van.MP3?alt=media&token=e13b748c-a455-48eb-98ba-0c9fbcee1441",
-    image: "",
-    word: "Vase",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/van.png?alt=media&token=4c1e33de-069d-41dc-8c67-b4aa98368d76",
+    word: "Van",
   },
   {
     name: "Ww",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FW%20for%20watch.MP3?alt=media&token=7c11a193-7dc8-4f98-a8f0-6c22aec2ce98",
-    image: "",
-    word: "Water",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/watch.png?alt=media&token=bb273bda-c7f5-4bb7-afb0-f3fb843062c2",
+    word: "Watch",
   },
   {
     name: "Xx",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FX%20for%20xylophone.MP3?alt=media&token=cee44b5e-3f89-4dd4-bff0-233488cc0036",
-    image: "",
-    word: "Xylo",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/xylophone.png?alt=media&token=4e6a475f-66dc-4d88-b482-bcc3040ab632",
+    word: "Xylophone",
   },
   {
     name: "Yy",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FY%20for%20yellow.MP3?alt=media&token=1ff72cd6-9e95-42a1-ad8d-23678e3b4044",
-    image: "",
-    word: "Yatch",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/yellow%20paint.png?alt=media&token=002baa60-53ed-4180-a29b-40b0751db400",
+    word: "Yellow",
   },
   {
     name: "Zz",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FZ%20for%20zebra.MP3?alt=media&token=ed839074-852a-43d7-bc2f-d677da727fe8",
-    image: "",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/zebra.png?alt=media&token=2552f528-e2e8-4cc8-8b30-8fda17313675",
     word: "Zebra",
   },
 ];

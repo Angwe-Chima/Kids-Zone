@@ -69,37 +69,25 @@ function WeAre() {
       <div className="creators">
         <h1>Creator</h1>
         <div>
-          <h2>CEO</h2>
-          <h4>
-            Introducing our CEO and Founder, <span>Angwe Destiny</span>, the
-            driving force behind <span>Kids Zone</span>. He not only lead our
-            team but also personally crafted the website, embodying our
-            commitment to hands-on, innovative learning experiences. With a deep{" "}
-            <span>passion</span> for education and technology,{" "}
-            <span>Destiny</span> envisioned a platform where children could
-            learn and have fun simultaneously. His <span>dedication</span> has
-            transformed this vision into a reality, making{" "}
-            <span>Kids Zone</span> a trusted source for educational
-            entertainment. Through his <span>leadership</span>, we continue to
-            evolve, striving to inspire young minds worldwide.
-          </h4>
+          <h2>CEO OF KIDSZONE</h2>
+          <p>
+            Introducing <strong>Angwe Destiny</strong>, our CEO and founder. A
+            passionate leader in education technology, he crafted Kids Zone to
+            make learning fun. His dedication transformed his vision into a
+            trusted source of educational entertainment, inspiring young minds
+            worldwide.
+          </p>
         </div>
       </div>
 
       <div className="vision-mission">
         <h1>Vision And Mission</h1>
         <p>
-          At Kids Zone, our core mission is to spark a lifelong passion for
-          learning, merging education with fun to inspire, educate, and empower
-          every child. We envision a world where learning is an exciting
-          adventure, accessible and enjoyable for all, creating a nurturing
-          environment that fosters creativity, curiosity, and confidence. By
-          offering a diverse blend of activities, from Alphabet Adventures to
-          Maths Quizzes, we aim to build a foundation for early learning that
-          encourages kids to explore their potential, develop critical thinking
-          skills, and cultivate empathy and knowledge. Our commitment is to
-          transform the educational landscape, making learning a joyful journey
-          that equips children for a future filled with possibilities.
+          Kids Zone aims to make learning fun and accessible for all children.
+          They provide a variety of activities to spark a lifelong love of
+          learning, fostering creativity, curiosity, and critical thinking
+          skills. Their mission is to empower every child through an enjoyable
+          and nurturing educational experience.
         </p>
       </div>
     </div>

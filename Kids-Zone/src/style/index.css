@@ -68,7 +68,6 @@
 html {
   scroll-behavior: smooth;
   /* filter: grayscale(100); */
-
 }
 
 body,
@@ -79,11 +78,17 @@ html {
 
 #root {
   width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
 }
 
 .App {
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
   flex-direction: column;
   position: relative;
 }
@@ -126,7 +131,7 @@ nav {
   z-index: 99;
   justify-content: space-between;
   align-items: center;
-  padding: .9em 1em;
+  padding: 0.9em 1em;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.39);
 }
 
@@ -215,7 +220,7 @@ nav ul li a:focus::before,
 }
 
 .icon {
-  font-size: clamp(.8rem, 2vw, 1rem);
+  font-size: clamp(0.8rem, 2vw, 1rem);
   color: red;
 }
 
@@ -245,11 +250,12 @@ nav ul li a:focus::before,
 .footSec1 p {
   width: 80%;
   text-align: center;
-  font-size: clamp(0.9rem, 2vw, 1.1rem);
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
 }
 
 .footSec1 img {
   filter: brightness(1);
+  width: 25%;
 }
 
 .footSec2 {
@@ -260,6 +266,10 @@ nav ul li a:focus::before,
   align-items: center;
   flex-direction: column;
   gap: 1em;
+}
+
+.footSec2 p {
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 .footSec3 {
@@ -274,6 +284,8 @@ nav ul li a:focus::before,
 .footSec3 h2,
 .footSec2 h2 {
   position: relative;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+
 }
 
 .footSec3 h2::before,
@@ -307,7 +319,7 @@ nav ul li a:focus::before,
 
 .footSec3 ul li a {
   text-decoration: none;
-  font-size: var(--font-size-small);
+  font-size: clamp(0.7rem, 2vw, var(--font-size-small));
   color: black;
   font-family: var(--custom-font);
   display: flex;
@@ -460,34 +472,34 @@ nav ul li a:focus::before,
 /* ////////////////////// */
 
 .side-bar {
-  position: fixed; 
+  position: fixed;
   top: 0;
   right: 0;
-  width: 60%; 
+  width: 60%;
   z-index: 9999;
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
+  flex-direction: column;
+  align-items: center;
   display: none;
 }
 
 .menu-div {
-  width: 80%;  
-  padding: .5rem;
+  width: 80%;
+  padding: 0.5rem;
   display: flex;
   justify-content: end;
   align-items: center;
 }
 
-.menu-div .menu{
+.menu-div .menu {
   font-size: 2rem;
 }
 
 .side-bar ul {
-  background-color: white; 
-  list-style: none; 
-  padding: 1em 0em; 
-  margin: 0 auto; 
+  background-color: white;
+  list-style: none;
+  padding: 1em 0em;
+  margin: 0 auto;
   width: 100%;
   box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.075);
   /* height: 100vh; */
@@ -497,43 +509,40 @@ nav ul li a:focus::before,
   flex-direction: column;
   gap: 2rem;
   transition: all 1s;
-  animation:  zoom .6s ease-in-out forwards;
+  animation: zoom 0.6s ease-in-out forwards;
 }
 
 @keyframes zoom {
-  0%{
+  0% {
     transform: skew(0deg);
-  }100%{
+  }
+  100% {
     transform: skew(180deg);
   }
 }
 
-
-
 .side-bar li {
   width: 100%;
-  display: flex; 
+  display: flex;
   align-items: center;
   cursor: pointer;
   justify-content: center;
   gap: 1em;
   font-size: clamp(1rem, 3vw, 1.2rem);
-  padding: .5rem 0rem;
+  padding: 0.5rem 0rem;
 }
 
-.side-icon{
+.side-icon {
   color: red;
-  font-size: clamp(.8rem, 3vw, 1.5rem);
-
+  font-size: clamp(0.8rem, 3vw, 1.5rem);
 }
 
 .side-bar li.active {
-  background-color: #e0e0e0; 
+  background-color: #e0e0e0;
 }
 
-
 .side-bar ul li:hover {
-  background-color: #e0e0e0; 
+  background-color: #e0e0e0;
 }
 
 @media screen and (max-width: 700px) {

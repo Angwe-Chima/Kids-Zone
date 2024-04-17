@@ -21,17 +21,15 @@
 
 .learn-cards a {
   width: 40%;
+  height: max(12rem, 17vw);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 11em;
   color: black;
   text-decoration: none;
-  font-size: 1.3rem;
-  min-width: 300px;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  min-width: 200px;
   max-width: 550px;
-  max-height: 15em;
-  min-height: 10em;
 }
 
 .learn-cards a .learn-card {
@@ -94,7 +92,7 @@
   align-items: center;
   flex-direction: column;
   padding: 4em 0em 1em 0em;
-  gap: 4em;
+  gap: 3em;
   user-select: none;
 }
 
@@ -136,4 +134,8 @@
   .learn-cards a {
     width: 100%;
   } 
+  .learn-cards a .learn-card::before {
+    width: 65px;
+    height: 65px;
+  }
 }

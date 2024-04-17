@@ -3,15 +3,15 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2em;
+  gap: .8em;
   justify-content: center;
 }
 
 .letters {
   background-image: var(--alphabetImage);
   width: 17%;
-  height: 200px;
-  min-width: 150px;
+  min-width: 110px;
+  height: max(110px, 10vw);
   border: 2px solid orangered;
   padding: 1em 0em;
   border-radius: 0.5rem;
@@ -22,7 +22,7 @@
 }
 
 .letters span {
-  width: 30%;
+  width: 40%;
   min-width: 100px;
   height: 20%;
   position: absolute;
@@ -37,8 +37,6 @@
   width: 100%;
   height: 100%;
   outline: none;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .letters span audio source {
@@ -70,7 +68,7 @@
   bottom: 0;
   right: 0;
   z-index: 2;
-  font-size: large;
+  font-size: clamp(.8rem, 2vw, 1.2rem);
   display: flex;
   justify-content:space-between ;
   align-items: center;
@@ -81,3 +79,4 @@
   color: orangered;
   letter-spacing: 2px;
 }
+

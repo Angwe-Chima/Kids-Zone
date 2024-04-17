@@ -3,26 +3,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.2em;
+  gap: 1.5em;
   flex-wrap: wrap;
+  padding: 0em .5em;
 }
 
 .color-world .colors div {
   background-color: var(--bg-color);
-  width: 10%;
-  min-width: 150px;
-  padding: 4em 2em;
+  width: clamp(100px, 13vw, 200px);
+  height: max(100px, 13vw);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5em;
+  border-radius: 50%;
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.13);
   cursor: pointer;
 }
 
 .color-world .colors div h3 {
   color: white;
-  font-size: var(--font-size-16);
+  font-size: clamp(1rem, 2vw, 1.5rem);
   text-align: center;
 }
 

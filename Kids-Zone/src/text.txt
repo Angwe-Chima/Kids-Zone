@@ -3,9 +3,7 @@ Things to do after JavaScript and React
 Clamp() for responsive text
 gsap animation
 skeleton loading
-loading animation 
 intersection observer
-responsive nav and footer
 responsive layout
 form validation 
 email

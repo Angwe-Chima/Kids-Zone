@@ -20,11 +20,6 @@ export default [
     isFruit: true,
   },
   {
-    name: "Pineapple",
-    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/watermelon.png?alt=media&token=b122467d-327c-4354-92e5-9c772b06c8f8",
-    isFruit: true,
-  },
-  {
     name: "Watermelon",
     image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/watermelon.png?alt=media&token=b122467d-327c-4354-92e5-9c772b06c8f8",
     isFruit: true,
