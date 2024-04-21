@@ -6,6 +6,7 @@ export default [
     sound:
       "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Tiger-sound.mp3?alt=media&token=f89006bb-6b37-4f2d-823d-76691d0b6cbb",
     description: "Tigers are canivorious wild mamals",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Dog",
@@ -15,6 +16,7 @@ export default [
       "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Dog-sound.mp3?alt=media&token=4b813032-f000-4412-a12f-4a43a28c978f",
     description:
       "Loyal and loving, the dog wags its tail with joy, always ready for a game of fetch or a comforting cuddle.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Cat",
@@ -23,6 +25,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Cat-sound.mp3?alt=media&token=88f60570-9696-487b-98dc-db4d77aff9ca",
     description:
       "Sleek and graceful, the cat purrs contentedly when happy, mastering the art of relaxation and playful mischief.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Lion",
@@ -30,6 +33,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Lion-sound.mp4?alt=media&token=961ac125-e8da-48a0-9054-b7c1b448b8cc",
     description:
       "The lion, known as the king of the jungle, roars mightily across the savannah.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Eagle",
@@ -38,6 +42,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Eagle-sound.mp4?alt=media&token=2defe311-21ab-45f8-9c78-6cfa95b9ee3a",
     description:
       "The eagle soars high in the sky, with keen eyesight and majestic wings, symbolizing freedom and strength.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Monkey",
@@ -46,6 +51,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Monkey-sound.mp4?alt=media&token=5158a5f1-d725-482d-86ce-37c8b4e30fed",
     description:
       "Mischievous and playful, the monkey swings from tree to tree, always up to something fun.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Bear",
@@ -54,6 +60,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Bear-sound.mp3?alt=media&token=c4845090-c96f-48cf-af4c-48ffef477a48",
     description:
       "The mighty bear wanders the forest, with a coat of thick fur and a love for honey.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Cow",
@@ -62,6 +69,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Cow-sound.mp3?alt=media&token=cc1c83f8-901a-4079-a3af-19bd7c1b645f",
     description:
       "Mooing gently, the cow grazes on the field, providing milk and playing a key role on the farm.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Horse",
@@ -70,6 +78,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Horse-sound.mp4?alt=media&token=b3bcd793-bbab-43f3-95d3-f702e675e398",
     description:
       "Majestic and strong, the horse gallops across the meadow, with a beautiful mane flowing in the wind.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Chicken",
@@ -78,6 +87,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Chicken-sound.mp3?alt=media&token=4b8d30df-4812-46c5-961a-ba6a7dc47f8e",
     description:
       "The chicken pecks around the yard, clucking and laying eggs that are a farm favorite.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Elephant",
@@ -86,6 +96,7 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Elephant-sound.mp3?alt=media&token=3e6245f2-37fb-45fc-a593-7e6b2d1f5039",
     description:
       "The elephant, with its grand tusks and powerful trunk, is a gentle giant of the animal kingdom.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
   {
     name: "Pig",
@@ -94,5 +105,6 @@ export default [
     sound: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/Pig-sound.mp4?alt=media&token=87d83330-e857-4776-98e7-6fd7ec28c3fe",
     description:
       "The pig enjoys a mud bath on hot days, oinking happily in its cozy pen.",
+    blurhash: "LGF5%%^*Iof6@-5cM{of00of00fQ"
   },
 ];

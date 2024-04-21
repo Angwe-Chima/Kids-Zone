@@ -33,7 +33,7 @@ const Header = () => {
     previousButton.addEventListener("click", previous);
 
     // Start automatic scrolling on component mount
-    intervalId = setInterval(next, 7000);
+    intervalId = setInterval(next, 5000);
 
     return () => {
       nextButton.removeEventListener("click", next);

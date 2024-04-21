@@ -18,7 +18,7 @@ const Footer = () => {
           Inspiring Little Minds to Dream Big: Every Journey Begins with Fun!
         </p>
         <p>
-          Copyright © <time>{year}</time> Edukids. All rights reserved.
+          Copyright <span>&copy;</span> <time>{year}</time> Edukids. All rights reserved.
         </p>
       </div>
       <div className="footSec3">
@@ -50,13 +50,13 @@ const Footer = () => {
         <h2>Contact Infomation</h2>
         <p>
           <FaLocationDot className="icon" />
-          UBA Bus-Stop Ibeju-Lekki Lagos State
+          Alfa Bus-Stop, Sangotedo, Lekki-Epe Expy, Lagos, Nigeria
         </p>
         <p>
           <MdEmail className="icon" /> thekidszonehr@gmail.com
         </p>
         <p>
-          <FaPhoneAlt className="icon" /> +234 &nbsp; 904 &nbsp;850 &nbsp;3900
+          <FaPhoneAlt className="icon" /> +234 &nbsp; 915 &nbsp;846 &nbsp;8602
         </p>
       </div>
       <BackToTopButton />

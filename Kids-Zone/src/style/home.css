@@ -320,7 +320,7 @@
   display: grid;
   padding: 1em;
   gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(235px, 100%), 1fr));
 }
 
 .all-activities > div {
@@ -672,3 +672,5 @@
     width: 100%;
   }
 }
+
+

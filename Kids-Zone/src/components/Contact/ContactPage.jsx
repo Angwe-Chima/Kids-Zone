@@ -1,6 +1,5 @@
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { TiSocialTwitter } from "react-icons/ti";
-
 function GoogleMap() {
   const mapUrl =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.4104426888416!2d3.624233574992476!3d6.469578793522149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf979fee11457%3A0xa5d6185fb1770461!2sAptech%20Computer%20Education%20Ajah%20Centre!5e0!3m2!1sen!2sng!4v1713139513988!5m2!1sen!2sng";

@@ -1,19 +1,6 @@
-import { useEffect, useState } from "react";
-import { LuArrowUpFromLine } from "react-icons/lu";
+import { IoIosArrowUp } from "react-icons/io";
 
 function BackToTopButton() {
-  const [showButton, setShowButton] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowButton(window.scrollY > 200); 
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll); 
-  }, []);
-
   const scrollUp = () => {
     window.scrollTo({
       top: 0,
@@ -22,13 +9,11 @@ function BackToTopButton() {
   };
 
   return (
-    <div className="totop-div">
-      {showButton && ( 
-        <div className="toTop" onClick={scrollUp}>
-          <LuArrowUpFromLine className="upIcon" />
-          <span>Goto Top</span>
-        </div>
-      )}
+    <div className="totop-div" onClick={scrollUp}>
+      <section className="toTop" >
+        <IoIosArrowUp className="upIcon" />
+        <p>Goto Top</p>
+      </section>
     </div>
   );
 }

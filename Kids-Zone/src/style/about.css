@@ -163,10 +163,10 @@
   align-items: center;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay.svg?alt=media&token=cbf78c3f-cf59-4813-9b17-ca23f97f5e2c);
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   text-shadow: 1px 1px 4px rgba(128, 128, 128, 0.808);
   box-shadow: 0px 0px 7px 1px rgba(128, 128, 128, 0.596);
-  filter: grayscale(10);
 }
 
 .about .creators div h2 {

@@ -1,5 +1,4 @@
 /* ////////// Learn /////////// */
-
 .learn {
   display: flex;
   width: 100%;
@@ -126,14 +125,16 @@
   transform: translate(-50%);
 }
 
+
+
 @media screen and (max-width: 700px) {
   .learn-cards {
     flex-direction: column;
   }
-  
+
   .learn-cards a {
     width: 100%;
-  } 
+  }
   .learn-cards a .learn-card::before {
     width: 65px;
     height: 65px;
