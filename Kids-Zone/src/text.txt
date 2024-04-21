@@ -2,13 +2,8 @@ Things to do after JavaScript and React
 
 Clamp() for responsive text
 gsap animation
-skeleton loading
 intersection observer
-responsive layout
 form validation 
-email
-phone 
-map to my location
 settings 
 user guide for the pages
 button sound 

@@ -70,10 +70,12 @@ html {
   /* filter: grayscale(100); */
 }
 
-body,
 html {
   width: 100%;
   overflow-x: hidden;
+}
+body{
+  width: 100%;
 }
 
 #root {
@@ -231,7 +233,7 @@ nav ul li a:focus::before,
   width: 100%;
   display: flex;
   padding: 3em 2em;
-  box-shadow: 0px 0px 3px 5px rgba(255, 68, 0, 0.253);
+  box-shadow: 0px 0px 10px 1px rgba(255, 0, 0, 0.253);
   background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
   background-size: cover;
   background-position: center;
@@ -366,7 +368,7 @@ nav ul li a:focus::before,
 }
 
 .toTop .upIcon:hover {
-  transform: translateY(-1.5em);
+  transform: translateY(-1em);
 }
 
 /* loading animation */
@@ -481,8 +483,8 @@ nav ul li a:focus::before,
   position: fixed;
   top: 0;
   right: 0;
-  width: 60%;
-  z-index: 9999;
+  width: 100%;
+  z-index: 999;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -504,25 +506,27 @@ nav ul li a:focus::before,
 .side-bar ul {
   background-color: white;
   list-style: none;
-  padding: 1em 0em;
+  padding: 2em 0em;
+  border-radius: 1.5em;
   margin: 0 auto;
-  width: 100%;
-  box-shadow: 0px 0px 10px 10px rgba(128, 128, 128, 0.075);
+  margin-top: 1em;
+  width: 80%;
+  box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.26);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 2rem;
   transition: all 1s;
-  animation: zoom 0.6s ease-in-out forwards;
+  animation: zoom .7s ease-in-out forwards;
 }
 
 @keyframes zoom {
   0% {
-    transform: skew(0deg);
+    transform: translateY(-5em);
   }
   100% {
-    transform: skew(180deg);
+    transform: translateY(0em);
   }
 }
 
@@ -535,6 +539,7 @@ nav ul li a:focus::before,
   gap: 1em;
   font-size: clamp(1rem, 3vw, 1.2rem);
   padding: 0.5rem 0rem;
+  font-weight: bold;
 }
 
 .side-icon {
@@ -543,7 +548,9 @@ nav ul li a:focus::before,
 }
 
 .side-bar li.active {
-  background-color: #e0e0e0;
+  background-color: #f0eeee;
+  color: red;
+  font-weight: bolder;
 }
 
 .side-bar ul li:hover {
@@ -616,7 +623,7 @@ nav ul li a:focus::before,
 
   .totop-div {
     position: absolute;
-    top: 0;
+    top: .5em;
     right: 0;
     font-size: 11px;
     width: 15%;

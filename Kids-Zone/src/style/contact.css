@@ -47,7 +47,7 @@
 }
 
 .contactPage section div form {
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,12 +59,11 @@
 .contactPage section div form textarea,
 .contactPage section div form input {
   width: 100%;
-  padding: 1em;
+  padding: 1.2em;
   resize: none;
   border: 3px solid var(--orange-red);
   border-radius: var(--border-radius-5);
   background-color: transparent;
-  color: var(--orange-red);
   outline: none;
   font-size: var(font-size-16);
 }

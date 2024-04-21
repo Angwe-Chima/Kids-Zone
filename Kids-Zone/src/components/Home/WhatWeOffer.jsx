@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
 
 const WhatWeOffer = () => {
   const numbers = 'https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/123.png?alt=media&token=c3f0ed5e-a62f-47c7-a0b0-1b2a7368361e';
@@ -14,6 +17,13 @@ const WhatWeOffer = () => {
   const happyToddlers3 = 'https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/happy-toddlers-3.png?alt=media&token=dca8373c-feed-4867-ae2d-e4f5bc34a870';
   const happyToddlers4 = 'https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/happy-toddlers-4.png?alt=media&token=d243c154-bd73-42bd-a869-2b3f94287c58';
 
+  useEffect(() => {
+    AOS.init({
+      offset: 100,
+      duration: 1000,
+      easing: 'ease',
+    });
+  }, []);
 
   return (
     <div className="what-we-offer">
