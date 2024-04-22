@@ -21,6 +21,10 @@
   background-repeat: no-repeat;
 }
 
+.letters:nth-child(7),.letters:nth-child(11),.letters:nth-child(23){
+  background-size: 30%;
+}
+
 .letters span {
   width: 40%;
   min-width: 100px;

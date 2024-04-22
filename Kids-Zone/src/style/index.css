@@ -564,6 +564,8 @@ nav ul li a:focus::before,
   justify-content: center;
   width: clamp(155px, 20vw, 300px);
   height: max(150px, 13vw);
+  background-color: red;
+  box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.301);
 }
 
 .skeleton img {

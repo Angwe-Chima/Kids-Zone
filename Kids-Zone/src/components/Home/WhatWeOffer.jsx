@@ -33,7 +33,7 @@ const WhatWeOffer = () => {
 
       <div className="offers">
         <div className="sec rightSec">
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-right" data-aos-duration="400">
             <Link to="/learn/numbers">
               <img src={numbers} alt="" />
               <div className="sec-text-desc">  
@@ -42,7 +42,7 @@ const WhatWeOffer = () => {
               </div>
             </Link>
           </div>
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-right" data-aos-duration="450">
             <Link to="/learn/Alphabet-Adventure">
               <img src={abc} alt="" />
               <div className="sec-text-desc">  
@@ -51,7 +51,7 @@ const WhatWeOffer = () => {
               </div>
             </Link>
           </div>
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-right" data-aos-duration="500">
             <Link to="/learn/Rhymes-And-Sounds">
               <img src={rhyme} alt="" />
               <div className="sec-text-desc">  
@@ -60,7 +60,7 @@ const WhatWeOffer = () => {
               </div>
             </Link>
           </div>
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-right" data-aos-duration="550">
             <Link to="/learn/Fruits-And-Vegetables">
               <img src={vegetable} alt="" />
               <div className="sec-text-desc">  
@@ -72,15 +72,15 @@ const WhatWeOffer = () => {
   
         </div>
         <div className="midSec">
-          <img src={happyToddlers} alt="" className="images image1"/>
+          <img src={happyToddlers} alt="" className="images image1" data-aos="fade-up" data-aos-duration="500"/>
           <div>
-            <img src={happyToddlers2} alt="" className="images image2"/>
-            <img src={happyToddlers3} alt="" className="images image3"/>
+            <img src={happyToddlers2} alt="" className="images image2" data-aos="fade-up" data-aos-duration="600"/>
+            <img src={happyToddlers3} alt="" className="images image3"data-aos="fade-up" data-aos-duration="600"/>
           </div>
-          <img src={happyToddlers4} alt="" className="images image4"/>
+          <img src={happyToddlers4} alt="" className="images image4" data-aos="fade-up" data-aos-duration="700"/>
         </div>
         <div className="sec leftSec">
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-left" data-aos-duration="400">
             <Link to="/learn/Color-World">
               <img src={color} alt="" />
               <div className="sec-text-desc">  
@@ -89,7 +89,7 @@ const WhatWeOffer = () => {
               </div>
             </Link>
           </div>
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-left" data-aos-duration="450">
           <Link to="/learn/Animal-Adventure">
             <img src={animals} alt="" />
             <div className="sec-text-desc">  
@@ -98,7 +98,7 @@ const WhatWeOffer = () => {
             </div>
           </Link>
           </div>
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-left" data-aos-duration="500">
           <Link to="/learn/Maths-And-Quiz">
             <img src={quiz} alt="" />
             <div className="sec-text-desc">  
@@ -107,7 +107,7 @@ const WhatWeOffer = () => {
             </div>
           </Link>
           </div>
-          <div className="sec-card">
+          <div className="sec-card" data-aos="fade-left" data-aos-duration="550">
           <Link to="/learn/Days-And-Months">
             <img src={dayMonth} alt="" />
             <div className="sec-text-desc">  
