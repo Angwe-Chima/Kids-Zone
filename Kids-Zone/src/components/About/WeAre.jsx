@@ -1,6 +1,4 @@
 function WeAre() {
-  const happyToddler5 =
-    "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/happy-toddlers-5.png?alt=media&token=e2abad72-2752-4a58-935f-067ec63dddc2";
   const happyToddler6 =
     "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/happy-toddlers-6.png?alt=media&token=8805d355-39ca-4f9c-aa48-5778f6b48ad3";
 
