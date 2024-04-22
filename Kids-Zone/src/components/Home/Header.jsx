@@ -48,8 +48,6 @@ const Header = () => {
     "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/fun-activity-5.png?alt=media&token=d6c8fbb9-7ab5-480a-b510-c26c3788054c";
   const activity7 =
     "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/fun-activity-7.png?alt=media&token=8ff90f50-38b9-4fe3-9353-49d3a7464432";
-  const activity8 =
-    "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/fun-activity-8.png?alt=media&token=eeaf30a3-6ac4-41fc-8a7a-509fe52d33a5";
   const activity6 =
     "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/fun-activity-6.png?alt=media&token=05dbcd99-27de-473a-8dbc-a477abd011b6";
 

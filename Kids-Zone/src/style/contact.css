@@ -61,8 +61,8 @@
   width: 100%;
   padding: 1.2em;
   resize: none;
-  border: 3px solid var(--orange-red);
-  border-radius: var(--border-radius-5);
+  border: 1px solid var(--orange-red);
+  border-radius:.2rem;
   background-color: transparent;
   outline: none;
   font-size: var(font-size-16);
@@ -138,7 +138,7 @@
 .reachOut .socialMedia div {
   width: 20%;
   min-width: 95px;
-  padding: 0.5em;
+  padding:1.2em 0.5em;
   border-radius: 5em;
   background: var(--blue);
   display: flex;

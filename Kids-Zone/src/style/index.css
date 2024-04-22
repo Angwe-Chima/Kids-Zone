@@ -67,7 +67,6 @@
 
 html {
   scroll-behavior: smooth;
-  /* filter: grayscale(100); */
 }
 
 html {
@@ -76,6 +75,10 @@ html {
 }
 body{
   width: 100%;
+  cursor: url(../assets/cursor-icon.png), auto;
+}
+body:hover{
+  cursor: url(../assets/cursor-icon.png), auto;
 }
 
 #root {
@@ -187,7 +190,7 @@ nav ul li a {
   text-align: center;
   gap: 0.5em;
   padding: 0.4em;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   overflow: hidden;
   position: relative;
   font-weight: 700;
@@ -331,7 +334,7 @@ nav ul li a:focus::before,
   text-align: center;
   gap: 0.5em;
   padding: 0.4em;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   position: relative;
   display: flex;
   justify-content: center;
@@ -343,7 +346,7 @@ nav ul li a:focus::before,
 }
 
 .totop-div {
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   width: 10%;
   display: flex;
   justify-content: center;
@@ -534,7 +537,7 @@ nav ul li a:focus::before,
   width: 100%;
   display: flex;
   align-items: center;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   justify-content: center;
   gap: 1em;
   font-size: clamp(1rem, 3vw, 1.2rem);

@@ -30,16 +30,14 @@ const sideMenuArray = [
 
 function SideMenuBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [iswhite, setIsWhite] = useState(true);
 
   const toggleSidebar = () => {
     setIsOpen(!isOpen);
-    setIsWhite(!isOpen);
   };
 
   return (
     <div className="side-bar">
-      <MenuIcon handleClick={toggleSidebar} style={{ background: iswhite ? "transparent" : "white" }}/>
+      <MenuIcon handleClick={toggleSidebar}/>
       <ul style={{ display: isOpen ? "flex" : "none" }}>
         {sideMenuArray.map((item, idx) => (
           <MenuItem key={idx} item={item} />

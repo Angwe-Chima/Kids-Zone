@@ -42,7 +42,6 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column-reverse;
-  padding: 1em;
   height: 100%;
 }
 
@@ -53,7 +52,7 @@
   gap: 2em;
   align-items: center;
   flex-direction: column;
-  height: 35%;
+  height: 30%;
 }
 
 .header-container .card .header-desc a {
@@ -72,7 +71,7 @@
   letter-spacing: 1.5px;
   box-shadow: 0px 10px 10px rgb(252, 178, 178) inset,
     0px 5px 10px rgba(5, 5, 5, 0.212), 0px -10px 10px rgb(247, 119, 72) inset;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,20 +135,26 @@
 
 .header-container .card .header-img-div {
   width: 100%;
-  height: 65%;
+  height: 70%;
   display: flex;
   justify-content: center;
   align-items: end;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/circle-scatter.svg?alt=media&token=b332174d-9c22-4473-9cfd-9afa56736761);
   background-position: center;
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
 }
 
+.header-container > div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .header-container .card .header-img-div img {
   object-fit: contain;
   width: 100%;
-  height: 100%;
+  height: 80%;
   position: relative;
 }
 
@@ -164,7 +169,7 @@
   border: none;
   font-size: 2rem;
   font-weight: 900;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,11 +182,11 @@
   text-align: center;
   --text-stroke-color: black;
   letter-spacing: 1.5px;
-  line-height:clamp(1rem, 3vw , 2.5rem);
+  line-height: clamp(1rem, 3vw, 2.5rem);
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
-  color: rgba(255, 17, 0, 0.774);
+  color: rgba(0, 0, 0, 0.774);
   -webkit-text-stroke: 1px var(--text-stroke-color);
 }
 
@@ -329,11 +334,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 5px solid orangered;
+  border: 3px solid orangered;
   border-radius: 1em;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   flex-direction: column;
   position: relative;
 }
@@ -361,13 +367,12 @@
   padding: 1em 0.5em;
   background-color: orangered;
   color: white;
-  border-radius: 0em 0em .5em .5em;
+  border-radius: 0em 0em 0.5em 0.5em;
   text-align: center;
   font-size: clamp(0.9rem, 1vh, 1rem);
-  transition: .4s ease;
+  transition: 0.4s ease;
   height: auto;
 }
-
 
 /* what we offer */
 .what-we-offer {
@@ -410,7 +415,7 @@
   padding: 1em;
   border-radius: var(--border-radius-5);
   position: relative;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
 }
 
 .sec-card:nth-child(2) {
@@ -506,7 +511,7 @@
 .images {
   max-height: 250px;
   min-height: 200px;
-  border: 10px solid var(--orange-red);
+  border: 5px solid var(--orange-red);
   border-radius: 1rem;
   object-fit: contain;
   display: flex;
@@ -517,7 +522,6 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 
 .midSec .image1,
@@ -561,7 +565,7 @@
   letter-spacing: 1.5px;
   box-shadow: 0px 10px 10px rgb(252, 178, 178) inset,
     0px 5px 10px rgba(5, 5, 5, 0.212), 0px -10px 10px rgb(247, 119, 72) inset;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -678,5 +682,3 @@
     width: 100%;
   }
 }
-
-

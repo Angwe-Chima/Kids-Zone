@@ -61,7 +61,7 @@
   width: 90px;
   height: 90px;
   padding: 1em;
-  cursor: pointer;
+  cursor: url(../assets/cursor-icon.png), auto;
   top: 0;
   background-color: rgba(236, 38, 4, 0.5);
   backdrop-filter: blur(8px);
@@ -93,14 +93,14 @@
   padding: 4em 0em 1em 0em;
   gap: 3em;
   user-select: none;
-  animation: open .7s forwards ease;
+  animation: open 0.7s forwards ease;
 }
 
 @keyframes open {
-  0%{
+  0% {
     transform: scale(0%);
   }
-  100%{
+  100% {
     transform: scale(100%);
   }
 }
@@ -125,6 +125,7 @@
   justify-content: center;
   align-items: center;
   font-size: clamp(2rem, 4vw, 3rem);
+  cursor: url(../assets/cursor-icon.png), auto;
 }
 
 .top h1 {
@@ -134,8 +135,6 @@
   left: 50%;
   transform: translate(-50%);
 }
-
-
 
 @media screen and (max-width: 700px) {
   .learn-cards {
