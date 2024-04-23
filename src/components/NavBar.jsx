@@ -3,7 +3,6 @@ import { FaPhoneAlt, FaBookReader } from "react-icons/fa";
 import { AiFillHome } from "react-icons/ai";
 import { IoPersonSharp } from "react-icons/io5";
 import logoImg from "../assets/Kids-Zone-logo.svg";
-// import SideMenuBar from './SideMenuBar'
 
 const NavBar = () => {
   return (
