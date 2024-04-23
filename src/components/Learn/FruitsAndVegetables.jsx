@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { IoMdArrowRoundBack } from 'react-icons/io';
+import { IoMdArrowRoundBack } from "react-icons/io";
 import fruitsAndVegetableData from '../Data/fruitsAndVegetableData';
 import SkeletonLoading from "../SkelotonLoading";
 

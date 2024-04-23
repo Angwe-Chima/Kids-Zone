@@ -67,12 +67,11 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-html {
   width: 100%;
   overflow-x: hidden;
 }
+
+
 body{
   width: 100%;
   cursor: url(../assets/cursor-icon.png), auto;
@@ -130,7 +129,7 @@ h1::before {
 nav {
   width: 100%;
   display: flex;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);   
   position: fixed;
   top: 0;
   z-index: 99;

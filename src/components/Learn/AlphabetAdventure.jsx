@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { IoMdArrowRoundBack } from 'react-icons/io';
+import { IoMdArrowRoundBack } from "react-icons/io";
 import alphabetData from '../Data/alphabetData';
 import SkeletonLoading from "../SkelotonLoading";
 
