@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--bubbleGum-font);
-  transition: all 0.4 ease;
 }
 
 /* Webkit (Chrome, Safari) */
@@ -67,8 +66,8 @@
 
 html {
   scroll-behavior: smooth;
-  width: 100%;
   overflow-x: hidden;
+  /* width: 100%; */
 }
 
 
@@ -129,7 +128,7 @@ h1::before {
 nav {
   width: 100%;
   display: flex;
-  backdrop-filter: blur(8px);   
+  backdrop-filter: blur(15px);   
   position: fixed;
   top: 0;
   z-index: 99;
@@ -137,6 +136,9 @@ nav {
   align-items: center;
   padding: 0.9em 1em;
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.39);
+  user-select: none;
+  cursor: url(../assets/cursor-icon.png), auto;
+
 }
 
 nav > div {
@@ -157,14 +159,8 @@ nav > div {
   width: 5em;
 }
 
-@keyframes hop {
-  0%,
-  100% {
-    transform: translateY(0em);
-  }
-  50% {
-    transform: translateY(-0.1em);
-  }
+.logo-div img:hover{
+  cursor: url(../assets/cursor-icon.png), auto;
 }
 
 nav ul {

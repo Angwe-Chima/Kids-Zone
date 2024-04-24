@@ -8,34 +8,44 @@ const NavBar = () => {
   return (
     <nav>
       <div>
+        {/* Logo */}
         <div className="logo-div">
-          <img
-            src={logoImg}
-            alt=""
-          />
+          {/* Link to home page */}
+          <Link to="/">
+            <img
+              src={logoImg}
+              alt=""
+            />
+          </Link>
         </div>
+        {/* Navigation links */}
         <ul>
           <li>
+            {/* Link to home page */}
             <Link to="/">
               <AiFillHome className="icon" /> Home
             </Link>
           </li>
           <li>
+            {/* Link to learn page */}
             <Link to="/learn">
               <FaBookReader className="icon" /> Learn
             </Link>
           </li>
           <li>
+            {/* Link to about page */}
             <Link to="/about">
               <IoPersonSharp className="icon" /> About
             </Link>
           </li>
           <li>
+            {/* Link to contact page */}
             <Link to="/contact">
               <FaPhoneAlt className="icon" /> Contact
             </Link>
           </li>
         </ul>
+        {/* Side menu bar */}
         {/* <SideMenuBar/> */}
       </div>
     </nav>

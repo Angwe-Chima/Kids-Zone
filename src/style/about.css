@@ -6,7 +6,6 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 0.774);
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/circle-scatter.svg?alt=media&token=b332174d-9c22-4473-9cfd-9afa56736761);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -38,7 +37,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 3em 1em;
+  padding: 5em 1em;
   gap: 5em;
 }
 
@@ -47,6 +46,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2em .1em;
+
 }
 
 .who-we-are .left-side {
@@ -92,7 +93,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  padding: 4em 0em;
+  padding: 5em 0em;
 }
 
 .what-we-do .left-side {
@@ -149,7 +150,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2em;
-  padding: 0.5em;
+  padding: 5em 0.5em;
 }
 
 .about .creators div {
@@ -193,7 +194,7 @@
   align-items: center;
   gap: 3em;
   flex-direction: column;
-  padding: 1em;
+  padding: 5em 1em;
 }
 
 .vision-mission p {
@@ -209,7 +210,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  padding: 3em 0em;
+  padding: 5em 0em;
 }
 
 .carousel-container {

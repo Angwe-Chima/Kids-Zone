@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 
+// Loader animation 
 function Loader() {
   const [isLoading, setIsLoading] = useState(true);
 
+  // manages state
   useEffect(() => {
     const handleLoad = () => {
       setIsLoading(false);

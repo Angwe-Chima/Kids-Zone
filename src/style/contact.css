@@ -168,6 +168,10 @@
   font-size: clamp(.8rem, 2vw, var(--font-size-30));
 }
 
+.googleMap{
+  width: 100%;
+}
+
 @media screen and (max-width: 700px) {
   .contactPage section div form {
     width: 100%;

@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 /* ////////// Header //////////// */
@@ -14,7 +15,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -64,7 +65,7 @@
   width: 250px;
   height: 50px;
   border-radius: 45px;
-  font-size: 1rem;
+  font-size: clamp(.7rem, 2vw, 1rem);
   border: none;
   background-color: rgb(252, 100, 45);
   color: white;
@@ -139,13 +140,12 @@
   display: flex;
   justify-content: center;
   align-items: end;
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/circle-scatter.svg?alt=media&token=b332174d-9c22-4473-9cfd-9afa56736761);
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
 }
 
-.header-container > div{
+.header-container > div {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -177,8 +177,8 @@
 }
 
 .header-container .card h3 {
-  font-size: clamp(1rem, 3vw, 2rem);
-  width: 85%;
+  font-size: clamp(.9rem, 3vw, 1.8rem);
+  width: 80%;
   text-align: center;
   --text-stroke-color: black;
   letter-spacing: 1.5px;
@@ -200,6 +200,327 @@
   z-index: 2;
 }
 
+/* ......................... */
+
+main {
+  width: 100%;
+  background-color: white;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+main div {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  animation: camelion 30s ease infinite;
+}
+
+@keyframes camelion {
+  0%,
+  100% {
+    background-color: orangered;
+  }
+  10% {
+    background-color: orange;
+  }
+  20% {
+    background-color: cyan;
+  }
+  30% {
+    background-color: blue;
+  }
+  40% {
+    background-color: lime;
+  }
+  50% {
+    background-color: green;
+  }
+  60% {
+    background-color: hotpink;
+  }
+  70% {
+    background-color: red;
+  }
+  80% {
+    background-color: rgb(119, 0, 255);
+  }
+  90% {
+    background-color: darkorchid;
+  }
+}
+
+main div:nth-child(1) {
+  top: 30%;
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  animation: stage1 15s ease infinite, camelion 30s ease infinite;
+}
+
+@keyframes stage1 {
+  0%,
+  100% {
+    top: 30%;
+    left: 30%;
+  }
+  50% {
+    top: 50%;
+    left: 60%;
+  }
+}
+
+main div:nth-child(2) {
+  top: 10%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  animation: stage2 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage2 {
+  0%,
+  100% {
+    top: 10%;
+    left: 10%;
+  }
+  50% {
+    top: 40%;
+    left: 15%;
+  }
+}
+
+main div:nth-child(3) {
+  width: 90px;
+  height: 90px;
+  top: 30%;
+  left: 75%;
+  animation: stage3 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage3 {
+  0%,
+  100% {
+    top: 30%;
+    left: 75%;
+  }
+  50% {
+    top: 40%;
+    left: 15%;
+  }
+}
+main div:nth-child(4) {
+  top: 60%;
+  left: 40%;
+  animation: stage4 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage4 {
+  0%,
+  100% {
+    top: 60%;
+    left: 40%;
+  }
+  50% {
+    top: 30%;
+    left: 75%;
+  }
+}
+main div:nth-child(5) {
+  top: 10%;
+  left: 90%;
+  width: 50px;
+  height: 50px;
+  animation: stage5 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage5 {
+  0%,
+  100% {
+    top: 10%;
+    left: 90%;
+  }
+  50% {
+    top: 80%;
+    left: 40%;
+  }
+}
+main div:nth-child(6) {
+  top: 85%;
+  left: 15%;
+  width: 50px;
+  height: 50px;
+  animation: stage6 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage6 {
+  0%,
+  100% {
+    top: 85%;
+    left: 15%;
+  }
+  50% {
+    top: 80%;
+    left: 70%;
+  }
+}
+main div:nth-child(7) {
+  top: 80%;
+  left: 90%;
+  width: 80px;
+  height: 80px;
+  animation: stage7 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage7 {
+  0%,
+  100% {
+    top: 80%;
+    left: 90%;
+  }
+  50% {
+    top: 10%;
+    left: 70%;
+  }
+}
+main div:nth-child(8) {
+  top: 20%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  animation: stage8 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage8 {
+  0%,
+  100% {
+    top: 20%;
+    left: 50%;
+  }
+  50% {
+    top: 10%;
+    left: 20%;
+  }
+}
+main div:nth-child(9) {
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  animation: stage9 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage9 {
+  0%,
+  100% {
+    top: 50%;
+    left: 50%;
+  }
+  50% {
+    top: 80%;
+    left: 70%;
+  }
+}
+main div:nth-child(10) {
+  top: 70%;
+  left: 70%;
+  width: 80px;
+  height: 80px;
+  animation: stage10 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage10 {
+  0%,
+  100% {
+    top: 70%;
+    left: 70%;
+  }
+  50% {
+    top: 50%;
+    left: 50%;
+  }
+}
+main div:nth-child(11) {
+  top: 50%;
+  left: 5%;
+  width: 50px;
+  height: 50px;
+  animation: stage11 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage11 {
+  0%,
+  100% {
+    top: 50%;
+    left: 5%;
+  }
+  50% {
+    top: 5%;
+    left: 50%;
+  }
+}
+main div:nth-child(12) {
+  top: 60%;
+  left: 20%;
+  width: 70px;
+  height: 70px;
+  animation: stage12 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage12 {
+  0%,
+  100% {
+    top: 60%;
+    left: 20%;
+  }
+  50% {
+    top: 20%;
+    left: 60%;
+  }
+}
+main div:nth-child(13) {
+  top: 90%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  animation: stage13 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage13 {
+  0%,
+  100% {
+    top: 90%;
+    left: 50%;
+  }
+  50% {
+    top: 20%;
+    left: 80%;
+  }
+}
+main div:nth-child(14) {
+  top: 60%;
+  left: 30%;
+  width: 60px;
+  height: 60px;
+  animation: stage14 15s ease infinite, camelion 30s ease infinite;
+}
+@keyframes stage14 {
+  0%,
+  100% {
+    top: 60%;
+    left: 30%;
+  }
+  50% {
+    top: 80%;
+    left: 5%;
+  }
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.395);
+  backdrop-filter: blur(12px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
 /* ////////// Activities////////// */
 
 .activities {
@@ -208,7 +529,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 5em 0.1em;
+  padding: 7em 0.1em;
   gap: 2em;
 }
 
@@ -319,23 +640,24 @@
   align-items: center;
   flex-direction: column;
   gap: 2em;
-  padding: 3em;
+  padding: 5em 3em;
 }
 
 .all-activities {
   width: 100%;
   display: grid;
-  padding: 1em;
-  gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(min(235px, 100%), 1fr));
+  padding: 1em 0em;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
 }
 
 .all-activities > div {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: 3px solid orangered;
-  border-radius: 1em;
+  border: 5px solid orangered;
+  max-width: 400px;
+  border-radius: .5rem;
   background-image: url(https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/border-overlay2.svg?alt=media&token=f19a9768-24d4-42fb-94f0-dbd6b67ef5c8);
   background-position: center;
   background-size: cover;
@@ -367,16 +689,15 @@
   padding: 1em 0.5em;
   background-color: orangered;
   color: white;
-  border-radius: 0em 0em 0.5em 0.5em;
   text-align: center;
-  font-size: clamp(0.9rem, 1vh, 1rem);
+  font-size: clamp(0.8rem, 2vh, 1rem);
   transition: 0.4s ease;
   height: auto;
 }
 
 /* what we offer */
 .what-we-offer {
-  padding-top: 5em;
+  padding: 5em 0em;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -435,12 +756,8 @@
   content: "";
   width: 20%;
   height: 20%;
-  background: var(--red);
-  background: linear-gradient(
-    0deg,
-    rgba(73, 68, 68, 0.692) 0%,
-    rgba(0, 0, 0, 0.692) 100%
-  );
+  background-color: rgba(0, 0, 0, 0.226);
+  backdrop-filter: blur(15px);
   position: absolute;
   transition: 0.8s;
   bottom: 0;
@@ -489,6 +806,11 @@
   font-size: clamp(0.5rem, 1vw, 1.1rem);
   text-shadow: 1px 1px 2px rgba(128, 128, 128, 0.61);
   z-index: 1;
+}
+
+.sec-card p:hover,
+.sec-card h3:hover {
+  cursor: url(../assets/cursor-icon.png), auto;
 }
 
 .midSec {
@@ -680,5 +1002,12 @@
   }
   .sec-card p {
     width: 100%;
+  }
+  .header-container .card h3 {
+    width: 95%;
+  }
+  .header-container .card .header-desc .Btn {
+    width: 180px;
+    height: 40px;
   }
 }

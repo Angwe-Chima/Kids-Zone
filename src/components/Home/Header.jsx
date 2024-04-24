@@ -54,6 +54,24 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-container">
+        <main>
+          <div className="stage1"></div>
+          <div className="stage1"></div>
+          <div className="stage1"></div>
+          <div className="stage2"></div>
+          <div className="stage2"></div>
+          <div className="stage2"></div>
+          <div className="stage3"></div>
+          <div className="stage3"></div>
+          <div className="stage3"></div>
+          <div className="stage3"></div>
+          <div className="stage4"></div>
+          <div className="stage4"></div>
+          <div className="stage4"></div>
+          <div className="stage4"></div>
+          <section className="overlay"></section>
+        </main>
+
         <button
           className="prev_btn btn"
           onClick={() =>
