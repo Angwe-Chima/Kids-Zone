@@ -33,7 +33,7 @@ const WhatWeOffer = () => {
 
       <div className="offers">
         <div className="sec rightSec">
-          <div className="sec-card" data-aos="fade-right" data-aos-duration="400">
+          <div className="sec-card" data-aos="fade-right" data-aos-duration="400"> 
             <Link to="/learn/numbers">
               <img src={numbers} alt="" />
               <div className="sec-text-desc">  
@@ -77,7 +77,7 @@ const WhatWeOffer = () => {
             <img src={happyToddlers2} alt="" className="images image2" data-aos="fade-up" data-aos-duration="600"/>
             <img src={happyToddlers3} alt="" className="images image3"data-aos="fade-up" data-aos-duration="600"/>
           </div>
-          <img src={happyToddlers4} alt="" className="images image4" data-aos="fade-up" data-aos-duration="700"/>
+          <img src={happyToddlers4} alt="" className="images image4" data-aos="fade-up" data-aos-duration="650"/>
         </div>
         <div className="sec leftSec">
           <div className="sec-card" data-aos="fade-left" data-aos-duration="400">
