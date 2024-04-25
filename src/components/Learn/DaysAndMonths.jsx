@@ -26,7 +26,7 @@ function DaysAndMonths() {
         <h2>Month Of The Year</h2>
         <div>
         <div>
-          <p>Juanuary</p>
+          <p>January</p>
         </div>
         <div>
           <p>Febuary</p>

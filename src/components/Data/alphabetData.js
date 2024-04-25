@@ -118,7 +118,7 @@ export default [
     name: "Tt",
     audiosrc: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/A-Z%20sounds%2FT%20for%20train.MP3?alt=media&token=fc93e56f-ac65-412f-90a4-a07d2ac29a1b",
     image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/train.png?alt=media&token=2d15083b-ac92-4ac5-a2a0-f10f5d31aa4a",
-    word: "Turtle",
+    word: "Train",
   },
   {
     name: "Uu",
