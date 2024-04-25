@@ -36,7 +36,7 @@ export default [
   },
   {
     name: "Peas",
-    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/orange.png?alt=media&token=bdf5672a-9d3e-44e5-a687-e1b3fbb263b3",
+    image: "https://firebasestorage.googleapis.com/v0/b/kids-zone-78260.appspot.com/o/peas.png?alt=media&token=19684790-4a19-41d0-92e8-2762f4f86555",
     isFruit: false,
   },
   {

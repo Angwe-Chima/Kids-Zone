@@ -8,6 +8,7 @@
   flex-direction: column;
   padding: 5em 2em;
   position: relative;
+  user-select: none;
 }
 
 .learn-cards {
@@ -116,7 +117,7 @@
   padding: 0.1em 0.5em;
   position: relative;
   background-color: rgba(255, 68, 0, 0.164);
-  border-radius: 10em;
+  border-radius: 1em;
 }
 
 .top a {
