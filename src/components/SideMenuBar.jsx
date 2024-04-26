@@ -25,7 +25,6 @@ const sideMenuArray = [
     icon: <FaPhoneAlt className="side-icon" />,
     link: "/contact",
   },
-  // ... other menu items
 ];
 
 function SideMenuBar() {
@@ -59,7 +58,9 @@ function MenuItem({ item }) {
   return (
     <li
       key={item.link}
-      onClick={() => (window.location.pathname = item.link)}
+      onClick={() => {
+        window.location.pathname = item.link;
+      }}
       className={window.location.pathname === item.link ? "active" : ""}
     >
       {item.icon}
