@@ -38,7 +38,7 @@
   align-items: center;
   flex-direction: column;
   padding: 5em 1em;
-  gap: 5em;
+  gap: 1em;
 }
 
 .who-we-are {
@@ -47,7 +47,6 @@
   justify-content: center;
   align-items: center;
   padding: 2em .1em;
-
 }
 
 .who-we-are .left-side {
@@ -93,7 +92,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  padding: 5em 0em;
+  padding: 1em 0em;
 }
 
 .what-we-do .left-side {
@@ -150,7 +149,7 @@
   align-items: center;
   flex-direction: column;
   gap: 2em;
-  padding: 5em 0.5em;
+  padding: 2em 0.5em;
 }
 
 .about .creators div {
@@ -194,7 +193,7 @@
   align-items: center;
   gap: 3em;
   flex-direction: column;
-  padding: 5em 1em;
+  padding: 3em 1em;
 }
 
 .vision-mission p {
@@ -210,7 +209,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  padding: 5em 0em;
+  padding: 1em 0em;
 }
 
 .carousel-container {
@@ -299,7 +298,7 @@
 
 @media screen and (max-width: 700px) {
   .about-header {
-    height: 55vh;
+    height: 45vh;
   }
   .about-header section {
     background-size: 100%;

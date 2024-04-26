@@ -15,7 +15,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   position: relative;
 }
 
@@ -154,7 +154,7 @@
 .header-container .card .header-img-div img {
   object-fit: contain;
   width: 100%;
-  height: 80%;
+  height: 75%;
   position: relative;
 }
 
@@ -167,7 +167,7 @@
   color: black;
   padding: 0.5em;
   border: none;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 2vw, 2rem);
   font-weight: 900;
   cursor: url(../assets/cursor-icon.png), auto;
   display: flex;
@@ -177,12 +177,11 @@
 }
 
 .header-container .card h3 {
-  font-size: clamp(.9rem, 3vw, 1.8rem);
+  font-size: clamp(.9rem, 2vw, 1.7rem);
   width: 80%;
   text-align: center;
   --text-stroke-color: black;
-  letter-spacing: 1.5px;
-  line-height: clamp(1rem, 3vw, 2.5rem);
+  letter-spacing: 1.2px;
   text-decoration: none;
   position: relative;
   text-transform: uppercase;
@@ -1009,5 +1008,8 @@ main div:nth-child(14) {
   .header-container .card .header-desc .Btn {
     width: 180px;
     height: 40px;
+  }
+  .header-container .card .header-img-div img {
+    height: 55%;
   }
 }
