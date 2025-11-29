@@ -1,0 +1,1 @@
+import{j as e,a as s,d as a}from"./index-BP2Fciwo.js";function n(){return e.jsx("div",{className:"learnNow",children:e.jsx(s,{to:"/learn",children:e.jsxs("button",{className:"Btn",children:["Explore Activities",e.jsx(a,{})]})})})}export{n as default};
