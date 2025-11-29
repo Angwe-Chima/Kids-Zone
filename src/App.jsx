@@ -6,7 +6,7 @@ import LearnElements from "./components/Data/LearnElements";
 import Loader from "./components/Loader";
 import SideMenuBar from "./components/SideMenuBar";
 import ScrollToTop from "./components/script/ScrollToTop";
-import Home from "./components/Home"; // Don't lazy load Home - load immediately
+import Home from "./components/Home";
 
 // Lazy load only non-critical pages
 const Learn = lazy(() => import("./components/Learn"));
@@ -17,10 +17,9 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Set a timeout to ensure loader doesn't stay forever
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500); // Max 1.5 seconds
+    }, 1500);
 
     const handleLoad = () => {
       setIsLoading(false);
@@ -36,7 +35,7 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.MODE === 'production' ? '/Kids-Zone' : '/'}>
       <ScrollToTop />
       <div className="App">
         <SideMenuBar />
