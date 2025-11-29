@@ -6,9 +6,9 @@ import LearnElements from "./components/Data/LearnElements";
 import Loader from "./components/Loader";
 import SideMenuBar from "./components/SideMenuBar";
 import ScrollToTop from "./components/script/ScrollToTop";
+import Home from "./components/Home"; // Don't lazy load Home - load immediately
 
-// Lazy loading components
-const Home = lazy(() => import("./components/Home"));
+// Lazy load only non-critical pages
 const Learn = lazy(() => import("./components/Learn"));
 const About = lazy(() => import("./components/About"));
 const Contact = lazy(() => import("./components/Contact"));
@@ -17,12 +17,21 @@ const App = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // Set a timeout to ensure loader doesn't stay forever
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1500); // Max 1.5 seconds
+
     const handleLoad = () => {
       setIsLoading(false);
+      clearTimeout(timer);
     };
+
     window.addEventListener("load", handleLoad);
+    
     return () => {
       window.removeEventListener("load", handleLoad);
+      clearTimeout(timer);
     };
   }, []);
 
